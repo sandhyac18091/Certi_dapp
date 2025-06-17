@@ -3,9 +3,7 @@
 
 ## 🧾 Introduction
 
-**CertiDApp** is a decentralized application (DApp) designed to issue, store, and verify digital certificates on the blockchain. It offers a secure and tamper-proof solution for organizations such as universities, training institutes, and companies to provide verifiable credentials to their users.
-Using blockchain and smart contracts, CertiDApp ensures that each certificate is uniquely identifiable and cannot be forged or altered. Each certificate is assigned a **Certificate ID**, which can be used to retrieve and verify its authenticity at any time. The platform also generates a **QR code** for each certificate, enabling instant access to verification by simply scanning the code.
-CertiDApp simplifies certificate management while enhancing trust and transparency in digital credential systems.
+CertiDApp is a decentralized app for issuing and verifying digital certificates on the blockchain. It provides a secure, tamper-proof system for organizations to offer verifiable credentials. Each certificate has a unique Certificate ID and QR code, enabling easy and instant authenticity checks. CertiDApp enhances trust, transparency, and efficiency in certificate management.
 
 
 ## 🚀 Features
@@ -28,10 +26,20 @@ CertiDApp simplifies certificate management while enhancing trust and transparen
 
 ## 1. Clone and Install
 
-git clone https://github.com/your-username/CertiDApp.git
-cd CertiDApp
 
-## 1. Deploy Smart Contract
+```bash
+  git clone https://github.com/your-username/CertiDApp.git
+```
 
-npx hardhat node
-npx hardhat ignition deploy ignition/modules/certi.js
+## Deployment
+
+To deploy this project run
+
+```bash
+  npx hardhat node
+```
+
+```bash
+ npx hardhat ignition deploy ignition/modules/certi.js
+```
+
