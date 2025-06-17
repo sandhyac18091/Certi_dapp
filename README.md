@@ -1,4 +1,3 @@
-# Certi_dapp
 
 # CertiDApp
 
@@ -11,10 +10,10 @@ CertiDApp simplifies certificate management while enhancing trust and transparen
 
 ## 🚀 Features
 
-- ✅ Issue verifiable digital certificates
-- 🔒 Store data immutably on the blockchain
-- 🔗 Metamask integration for wallet connection
-- 📱 React-based frontend with clean UI
+-  Issue verifiable digital certificates
+-  Store data immutably on the blockchain
+-  Metamask integration for wallet connection
+-  React-based frontend with clean UI
 
 
 ## 🛠 Tech Stack
@@ -27,4 +26,12 @@ CertiDApp simplifies certificate management while enhancing trust and transparen
 | Storage    | Ethereum Network / Local Testnet |
 | Tools      | MetaMask, Ethers.js |
 
+## 1. Clone and Install
 
+git clone https://github.com/your-username/CertiDApp.git
+cd CertiDApp
+
+## 1. Deploy Smart Contract
+
+npx hardhat node
+npx hardhat ignition deploy ignition/modules/certi.js
